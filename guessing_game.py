@@ -11,7 +11,6 @@ user_won = False
 correct_answer = random.randint(1, 10)
 
 while number_of_guesses > 0:
-
     user_guess = input("Guess my number: ")
     user_guess = int(user_guess)
 
